@@ -1,0 +1,12 @@
+name: cicd with test case
+
+on: 
+push: 
+branches: ["main"]
+
+jobs:
+
+build-test:
+runs-on: ubuntu-latest
+steps:
+ -name:
